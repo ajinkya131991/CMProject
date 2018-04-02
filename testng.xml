@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Media.Net Tests" verbose="1" preserve-order="true" parallel="classes" thread-count="1">
+  <test name="SEM" >
+    <classes>
+      <class name="Media.net.CM.SemChecks"/>
+      <!-- <class name="com.test.POM.addToCart.TC002_VerifyFacebookLink"/> -->
+    </classes>
+     </test>
+     
+     <test name="CM" >
+    <classes>
+      
+      <class name="Media.net.CM.CMChecks"/> 
+    </classes>
+     </test>
+</suite> 
